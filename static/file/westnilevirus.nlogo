@@ -33,7 +33,7 @@ to setup
   set-default-shape mosquitoes "circle"
   set-default-shape robins "robin"
   set-default-shape cardinals "cardinal"
-   create-humans People
+   create-humans Number-of-Humans
    [
      setxy random-xcor random-ycor
      set size 2
@@ -253,8 +253,8 @@ SLIDER
 89
 910
 122
-People
-People
+Number-of-Humans
+Number-of-Humans
 0
 500
 10.0
