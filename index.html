@@ -23,7 +23,7 @@
 
         <article>
             <p class="main">
-                West Nile Virus (WNV) is an arbovirus spread by mosquitoes discovered in Uganda's West Nile sub-region in 1927. The virus then spread to other countries, and in the mid-1990s, Algeria and Romania had their first severe WNV outbreak. The virus was first detected in the United States having its first case discovered in New York City in 1999. Within that year, many cases were reported, 62 human cases, 25 horse cases, and several bird diagnoses. Since then, WNV has been the most prevalent virus transmitted to humans by mosquitoes<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3485754/" target="_blank">[1]</a></sup>,
+                West Nile Virus (WNV) is an arbovirus discovered in Uganda's West Nile sub-region in 1927. The virus then spread to other countries, and in the mid-1990s, Algeria and Romania had their first severe WNV outbreak. The virus was first detected in the United States having its first case discovered in New York City in 1999. Within that year, many cases were reported, 62 human cases, 25 horse cases, and several bird diagnoses. Since then, WNV has been the most prevalent virus transmitted to humans by mosquitoes<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3485754/" target="_blank">[1]</a></sup>,
                 with over 48,183 reports received by  CDC or Centers for Disease Control and Prevention (from 1999 to 2017)<sup><a href="https://doi.org/10.1093/jme/tjz085" target="_blank">[2]</a></sup>.
             </p>
             <p class="main">
@@ -43,8 +43,8 @@
                 However, there are few cases where transplantation of organs spreads the virus. Hence, according to health officials, the virus was likely obtained through a blood transfusion<sup><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/west-nile-virus" target="_blank">[6]</a></sup>.
             </p>
             <p class="main">
-                The moment the mosquito bites an infected bird, the virus will circulate in their blood for a few days. Afterward, the virus enters the mosquito's salivary glands; thus, when bitten, the virus can proliferate in humans and animals and cause sickness<sup><a href="https://www.who.int/news-room/fact-sheets/detail/west-nile-virus" target="_blank">[7]</a></sup>.
-                During the first severe outbreak of WNV in the Mediterranean basin, fever, headache, myalgias, anorexia, abdominal pain, exanthems, and vomiting were among the first clinical signs linked with the infection documented in detail<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3111838/" target="_blank">[3]</a></sup>.
+                The moment the mosquito bite an infected bird, the virus will circulate in their blood for a few days. Afterward, the virus will enter the mosquito's salivary glands; thus, when bitten, the virus can proliferate in the body and cause sickness<sup><a href="https://www.who.int/news-room/fact-sheets/detail/west-nile-virus" target="_blank">[7]</a></sup>.
+                During the first severe outbreak of West Nile Virus in the Mediterranean basin, fever, headache, myalgias, anorexia, abdominal pain, exanthems, and vomiting were among the first clinical signs linked with the infection documented in detail<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3111838/" target="_blank">[3]</a></sup>.
             </p>
             <p class="main">
                 Moreover, the interaction between mosquitoes and animal hosts help sustain WNV in nature; however, birds, particularly robins, serve as the most common and preferred reservoir. Because the dominant viral vectors prefer to feed on robins, the American robin is assumed to be the primary host species responsible for maintaining and transmitting WNV in the United States<sup><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3485754/" target="_blank">[1]</a></sup>.
@@ -52,7 +52,7 @@
             </p>
             <hr class="dashed">
             <p class="main">
-                After reading up on the facts mentioned above, we already have some general idea of why people and some animals got WNV. And that is because of getting bitten by an infected mosquito.
+                After reading up on the facts mentioned above, we already have some general idea of why humans and some animals get West Nile Virus. And that is because of getting bitten by an infected mosquito.
                 However, to better understand how the transmission happened and know some factors that could affect the rate of the shape of WNV outbreak, we need to model and simulate the virus with the help of a multi-agent programmable modeling environment - Netlogo. However, let us first determine the simulation setup, such as its parameters and its limitations.
             </p>
             <p class="main">
@@ -68,10 +68,10 @@
             </ul>
             <p class="main">
                 The focus of this model is only on the cycle of infected robin - mosquito - susceptible robin, not the overall West Nile Virus effect. Moreover, it tries to simulate the summer season from June 1 to October 1 (particularly in the United States) - the days when mosquitoes are most active<sup><a href="https://my.clevelandclinic.org/health/diseases/10939-west-nile-virus" target="_blank">[9]</a></sup>.
-                Also, when the simulation already start, no robins will be born, but some robins may die. Other animals can carry WNV, but for this model, one positive-competence host is enough and what this means is the robin. Moreover, humans do not recover from WNV; they carry it forever.
+                Also, when the simulation already start, no robins will be born, but some robins may die. Other animals can carry WNV, but for this model, only one were used which is the robin. Moreover, humans do not recover from WNV; they carry it forever.
             </p>
             <p class="main">
-                Now let us introduce the population in the simulation. <span style="color:#2dd13c">Human icon</span> represents human or a person (susceptible), <span style="color:#edee31">Yellow circle </span> represents mosquito (susceptible), Two-tone<span style="color:white">(black</span><span style="color:red">/red)</span> bird icon represents robin (susceptible) and lastly, another bird but <span style="color:blue">blue bird icon</span> represents cardinal (susceptible).
+                Now let us introduce the population in the simulation. <span style="color:#2dd13c">Green human icon</span> represents a human or a person (susceptible), <span style="color:#edee31">Yellow circle </span> represents a mosquito (susceptible), Two-tone<span style="color:white">(black</span><span style="color:red">/red)</span> bird icon represents a robin (susceptible) and lastly, <span style="color:blue">blue bird icon</span> represents a cardinal (susceptible).
             </p>
             <div class="img-box1">
                 <img src="static/image/human.png">
@@ -87,7 +87,7 @@
                 <img src="static/video/wnv.gif" class="gif-viewer">
             </div>
             <p class="main">
-                Let us do a simulation where there are around 500 mosquitoes in the environment or place, and out of 10 robins, there is only one infected robin with 20 people roaming around. Also, we try to apply only 0.2% host competence of the robins because according to CT.gov., only one in every 500 mosquitos is infected<sup><a href="https://portal.ct.gov/Mosquito/Diseases/Mosquito-Transmitted-Diseases" target="_blank">[10]</a></sup>.
+                Let us do a simulation where there are around 500 mosquitoes in the environment or place, and out of 10 robins, there is only one infected robin with 20 people roaming around. Also, we try to apply only 0.2% host competence of the robins because according to CT.gov., there is a possibility where only one in every 500 mosquitos is infected<sup><a href="https://portal.ct.gov/Mosquito/Diseases/Mosquito-Transmitted-Diseases" target="_blank">[10]</a></sup>.
                 Meaning the probability of mosquitoes getting infected with the virus is very low.
             </p>
             <p class="main">
@@ -98,11 +98,11 @@
                 Notice that the WNV carrier mosquitoes infected no humans this is also because the chances of humans getting bitten by the infected mosquito is very low.
             </p>
             <p class="main">
-                Let us try to increase the number of robins to 200 and the number of infected robins to 10; the rest will stay the same. What would probably happen?
+                Let us try to increase the number of robins to 200 and the number of infected robins to 10; the rest will stay the same. What will probably happen?
             </p>
             <iframe id="html-simulation2" class="simulation-embed" src="static/file/West Nile Virus-2.html" style="display:none;"></iframe>
             <p class="main">
-                Trying to run the model for at least 3 times, we noticed that mostly will result to having no human infected with the virus; this is somehow because of the host competence. The percentage of host competence stays constant; thus, the probability of mosquitoes getting infected with the virus somehow remains the same.
+                Trying to run the model for at least 3 times, we noticed that mostly will result to having no human infected with the virus; this is somehow because of the host competence. The competence of the infected robins stays constant; thus, the probability of mosquitoes getting infected with the virus somehow remains the same.
             </p>
             <p class="main">
                 Suppose we try to increase its host competence to at least 20% to see if there is a significant change.
@@ -115,27 +115,27 @@
                 In addition to the number of infected robins, other factors could minimize the spread of the West Nile Virus. One is the presence of a cardinal. According to Rebecca Levine, Ph.D., cardinals are like “super suppressors". Although cardinals are susceptible and can get infected with WNV, they are significantly less likely to have enough virus circulating in their blood to transmit the virus back to mosquitoes<sup><a href="https://www.sciencedaily.com/releases/2016/08/160809095008.htm">[12]</a></sup>.
             </p>
             <p class="main">
-                Suppose we try to include 300 cardinals in the simulation, and the rest remains the same. Do cardinals really try to act as super suppressors?
+                Now let us try to include 300 cardinals in the simulation, and the rest remains the same. Do cardinals really try to act as super suppressors?
             </p>
             <iframe id="html-simulation4" class="simulation-embed" src="static/file/West Nile Virus-4.html" style="display:none;"></iframe>
             <p class="main">
-                We can see that having cardinals flying around somehow reduce the number of infected mosquitoes.  This is also because the mosquitoes biting an infected robin will be lower because mosquitoes now have two choices of whom to bite.
+                We can see that having cardinals flying around somehow reduce the number of infected mosquitoes.  This is also because the chances of mosquitoes to bite an infected robin will be lower because mosquitoes now have two choices of whom to bite.
             </p>
             <p class="main">
                 Furthermore, adding another factor like some robins migrate - either infected or susceptible robins or both infected and susceptible  - has the potential to lower the number of cases in that area. However, this could also be the reason why other places start to encounter West Nile Virus because there is a possibility that the birds that migrated to their places could be mostly infected.
             </p>
             <p class="main">
                 The mosquito infection rate peaks in mid-July, around the same time as mosquitoes switch from feeding on robins to feeding on cardinals<sup><a href="https://wildlife.org/cardinals-may-protect-atlanta-residents-from-west-nile-virus/">[13]</a></sup>.
-                Recall that this simulation wants to simulate the summer season because it is said to be the high-risk season because this is also when mosquitoes are most active<sup><a href="https://www.rottler.com/when-are-mosquitoes-most-active/">[14]</a></sup>.
-                So when we try to simulate again with a higher number of mosquitoes, this could be the result. More number of mosquitoes could get infected.
+                Recall that this simulation wants to simulate the summer season because it is said to be the high-risk season; so this is also when mosquitoes are most active<sup><a href="https://www.rottler.com/when-are-mosquitoes-most-active/">[14]</a></sup>.
+                So when we try to simulate again with a higher number of mosquitoes, this could be the result. More number of mosquitoes will get infected.
             </p>
             <iframe id="html-simulation5" class="simulation-embed" src="static/file/West Nile Virus-5.html" style="display:none;"></iframe>
             <br>
             <p class="main">
-                After doing the simulations, we could somehow understand how West Nile Virus spread to birds and humans. Moreover, to address how a West Nile Virus outbreak could recur, many factors must be considered as discussed above. If it is the summer season, mosquitoes will be in massive numbers, so there is a higher chance that a mosquito will bite an infected bird. Also, the number of super suppressor birds - cardinals in the place does have a significant effect. If the number of infected robins is greater than the number of cardinals, there is a higher chance that the virus will spread to other animals and humans.
+                After doing the simulations, we now somehow understand how West Nile Virus spread to birds and humans. Moreover, to address how a West Nile Virus outbreak could recur, many factors must be considered as discussed above. If it is the summer season, mosquitoes will be in massive numbers, so there is a higher chance that a mosquito will bite an infected bird. Also, the number of super suppressor birds - cardinals in the place does have a significant effect. If the number of infected robins is greater than the number of cardinals, there is a higher chance that the virus will spread to other animals and humans.
             </p>
             <p class="main">
-                Furthermore, the idea of preventing West Nile Virus or reducing the number of infections can be obtained from the simulation itself. We can see how humans, mosquitoes, robins, and cardinals would react to each other. If there are no infected robins, no infections will happen in mosquitoes and humans, as well as no additional robins would get infected. However, that is not the case in reality that there would not be a single robin present in the environment. Thus, we need to look for other factors which we can manage, such as taking personal precautions to avoid mosquito bites, especially since there is still no licensed vaccine for humans<sup><a href=" https://doi.org/10.3390/pathogens9121073">[15]</a></sup>. 
+                Furthermore, we can obtain  ideas regarding the prevention of West Nile Virus or reduction of  the number of infections from the simulation itself. Since we saw how humans, mosquitoes, robins, and cardinals will interact with each other, we can also conclude that if there are no infected robins, no infections will happen in mosquitoes and humans, as well as no additional robins will get infected. However, that is not the case in reality that there will not be a single robin present in the environment. Thus, we need to look for other factors which we can manage, such as raising awareness and taking personal precautions to avoid mosquito bites, especially since there is still no licensed vaccine for humans<sup><a href=" https://doi.org/10.3390/pathogens9121073">[15]</a></sup>. 
                 Also, larval source reduction is the most efficient and cost-effective method of mosquito control.
             </p>
             <p class="main">
@@ -145,7 +145,7 @@
             <br>
             <div class="download">
                 <p class="main">
-                    To open the interactive simulation<a href="static/file/WEST-NILE-VIRUS.html" download> Click here <i class="fa fa-download"></i></a>
+                    To download the interactive simulation HTML file<a href="static/file/WEST-NILE-VIRUS.html" download> Click here <i class="fa fa-download"></i></a>
                 </p>
             </div>
             <h5 class="section-divider">References</h5>
